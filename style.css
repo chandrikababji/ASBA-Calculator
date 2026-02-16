@@ -1,0 +1,47 @@
+
+h1{
+    font-family: cursive;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px); 
+  grid-template-rows: repeat(4, 100px);   
+  gap: 10px; 
+ 
+
+}
+.container button{
+     background-color: rgb(143, 248, 143);
+     font-size: 20px;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: #e55a5a;
+    
+}
+
+.fields{
+    width: 300px;
+}
+#myinput {
+  width: 300px;      /
+  height:35px;      
+  padding: 10px;    
+  font-size: 16px; 
+  border: 2px solid #4CAF50; 
+  border-radius: 14px;
+}
+label{
+    font-size: 25px;
+}
+#myoutput{
+    width: 300px;
+    height: 33px;
+    padding: 10px;
+    font-size: 18px;
+    border-color: 2px solid lightgreen;
+    border-radius: 15px;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASBA Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>
+    <h1>ASBA CALUCULATOR</h1>
+   <form>
+    <div class="fileds">
+       <input type="text"placeholder="entered data"id="myinput" ><br>
+       <br>
+       <label> Result:</label>
+       <input type="number"placeholder="Result"id="myoutput"><br>
+       <br>
+    </div>
+
+   </form>
+    </center>
+
+<div class="container">
+  <!-- 1st row -->
+  <button onclick="appendToInputbox('1')">1</button>
+  <button onclick="appendToInputbox('2')">2</button>
+  <button onclick="appendToInputbox('3')">3</button>
+  <button onclick="appendToInputbox('+')">+</button>
+
+  <!-- 2nd row -->
+  <button onclick="appendToInputbox('4')">4</button>
+  <button onclick="appendToInputbox('5')">5</button>
+  <button onclick="appendToInputbox('6')">6</button>
+  <button onclick="appendToInputbox('-')">-</button>
+
+  <!-- 3rd row -->
+  <button onclick="appendToInputbox('7')">7</button>
+  <button onclick="appendToInputbox('8')">8</button>
+  <button onclick="appendToInputbox('9')">9</button>
+  <button onclick="appendToInputbox('*')">*</button>
+
+  <!-- 4th row -->
+   <button onclick="appendToInputbox('0')">0</button>
+  <button onclick="appendToInputbox('/')">/</button>
+  <button onclick="cleardata()">Clear</button>
+  <button onclick="outputresult()">=</button>
+</div>
+
+
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
